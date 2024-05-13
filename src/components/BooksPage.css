@@ -22,7 +22,7 @@ body {
 .book-list {
   display: grid;
   grid-template-columns: 1fr 1fr; /* Two columns taking up 50% each */
-  grid-gap: 15px 75px ; /* Increase gap between columns */
+  grid-gap: 15px 30px; /* Increase gap between columns */
   justify-content: center; /* Center the columns horizontally */
   list-style-type: none;
   padding: 25px;
@@ -33,7 +33,7 @@ body {
   background-color: #fff;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
-  padding: 10px;
+  padding: 20px;
 }
 
 /* Book number styles */
@@ -67,7 +67,13 @@ body {
       padding: 10px;
   }
 
+  .book-list {
+    grid-template-columns: 1fr; /* Display in a single column on smaller screens */
+    grid-gap: 15px; /* Reduce gap between items */
+    padding: 15px; /* Adjust padding */
+  }
+
   .book-item {
-      padding: 10px;
+    padding: 15px; /* Adjust padding */
   }
 }
