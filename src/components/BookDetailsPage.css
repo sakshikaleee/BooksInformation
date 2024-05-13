@@ -1,0 +1,66 @@
+/* BookDetailsPage.css */
+
+.book-details-container {
+  margin: 0 auto;
+  padding: 2px;
+  display: flex;
+  /* Use flexbox to center */
+  justify-content: center;
+  /* Center horizontally */
+  align-items: center;
+  /* Center vertically */
+  flex-direction: column;
+  /* Stack items vertically */
+  min-height: 100vh;
+  /* Set minimum height to fill viewport */
+  background-color: white;
+  /* Add white background */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  /* Add shadow for separation */
+}
+
+.book-details {
+  max-width: 800px;
+  /* Set maximum width for book details */
+  width: 100%;
+  /* Ensure width fills container */
+  padding: 1px 65px;
+  /* Increase padding for separation */
+  color: #333;
+  /* Change text color to a darker shade */
+  text-align: center;
+  /* Center text */
+}
+
+.book-details .book-image {
+  margin-bottom: 20px; /* Decrease margin bottom */
+}
+
+.book-details .book-image img {
+  max-width: 100%;
+  /* Ensure image does not exceed container width */
+  height: auto;
+  /* Maintain aspect ratio */
+}
+
+.book-details h2 {
+  margin-bottom: 1px;
+}
+
+.book-details p {
+  margin-bottom: 5px;
+}
+
+.book-details strong {
+  font-weight: bold;
+}
+
+.book-details a {
+  color: #007bff;
+  /* Change link color */
+  text-decoration: none;
+}
+
+.book-details a:hover {
+  text-decoration: underline;
+}

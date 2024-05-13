@@ -1,0 +1,73 @@
+/* Reset default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f7f7f7;
+}
+
+/* Container for the book list */
+.books-container {
+  max-width: 1000px;
+  margin: 90px auto;
+  padding: 20px;
+}
+
+/* Book list */
+.book-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Two columns taking up 50% each */
+  grid-gap: 15px 75px ; /* Increase gap between columns */
+  justify-content: center; /* Center the columns horizontally */
+  list-style-type: none;
+  padding: 25px;
+}
+
+/* Book item container */
+.book-item {
+  background-color: #fff;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+/* Book number styles */
+.book-number {
+  font-weight: bold;
+  background-color: #fff;
+  display: inline-block;
+  padding: 5px 15px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.book-number::after {
+  content: '. ';
+}
+
+/* Book link styles */
+.book-link {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+.book-link:hover {
+  text-decoration: underline;
+}
+
+/* Media query for screens smaller than 768px (mobile devices) */
+@media (max-width: 768px) {
+  .books-container {
+      padding: 10px;
+  }
+
+  .book-item {
+      padding: 10px;
+  }
+}
