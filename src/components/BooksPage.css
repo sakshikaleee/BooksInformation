@@ -21,9 +21,9 @@ body {
 /* Book list */
 .book-list {
   display: grid;
-  grid-template-columns: 1fr 1fr; /* Two columns taking up 50% each */
-  grid-gap: 15px 30px; /* Increase gap between columns */
-  justify-content: center; /* Center the columns horizontally */
+  grid-template-columns: 1fr 1fr; 
+  grid-gap: 15px 30px; 
+  justify-content: center; 
   list-style-type: none;
   padding: 25px;
 }
@@ -68,12 +68,12 @@ body {
   }
 
   .book-list {
-    grid-template-columns: 1fr; /* Display in a single column on smaller screens */
-    grid-gap: 15px; /* Reduce gap between items */
-    padding: 15px; /* Adjust padding */
+    grid-template-columns: 1fr; 
+    grid-gap: 15px; 
+    padding: 15px;
   }
 
   .book-item {
-    padding: 15px; /* Adjust padding */
+    padding: 15px;
   }
 }
