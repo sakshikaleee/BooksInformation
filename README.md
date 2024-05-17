@@ -13,13 +13,15 @@ This is a frontend application built with React. The application provides a user
 2. Install dependencies:
     - npm install
          or
-    - yarn install
+     yarn install
   
 ### Running the Application
 
 1. Start the development server:
 
-    npm start
+   - npm start
      or
     yarn start
-    
+
+### Open your browser and navigate to `http://localhost:3000` to see the application in action.
+
