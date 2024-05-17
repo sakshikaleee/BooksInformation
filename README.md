@@ -2,6 +2,13 @@
 
 This is a frontend application built with React. The application provides a user-friendly interface for interacting with data from an API. It includes features such as a Books Page and a Book-Details Page, with proper routing, state management, error handling, and responsive design.
 
+## Deployment
+
+The application is deployed on Amazon S3 & Vercel and can be accessed at the following URL: 
+
+Amazon S3:- http://booksinformation.s3-website.ap-south-1.amazonaws.com/
+Vercel :-   https://books-information-git-main-sakshi-kales-projects-4890a701.vercel.app/
+
 ### Prerequisites
 - Node.js
 - npm (or yarn)
