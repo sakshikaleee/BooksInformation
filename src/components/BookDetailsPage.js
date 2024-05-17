@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
-import './BookDetailsPage.css'; // Import CSS file
+import './BookDetailsPage.css'; 
 
 function BookDetailsPage() {
   const { id } = useParams();
