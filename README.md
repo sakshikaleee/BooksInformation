@@ -6,8 +6,8 @@ This is a frontend application built with React. The application provides a user
 
 The application is deployed on Amazon S3 & Vercel and can be accessed at the following URL: 
 
-Amazon S3:- http://booksinformation.s3-website.ap-south-1.amazonaws.com/
-Vercel :-   https://books-information-git-main-sakshi-kales-projects-4890a701.vercel.app/
+- Amazon S3:- http://booksinformation.s3-website.ap-south-1.amazonaws.com/
+- Vercel :-   https://books-information-git-main-sakshi-kales-projects-4890a701.vercel.app/
 
 ### Prerequisites
 - Node.js
