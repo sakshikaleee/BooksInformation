@@ -4,7 +4,7 @@ import Navbar from './components/Navbar';
 import BooksPage from './components/BooksPage';
 import BookDetailsPage from './components/BookDetailsPage';
 import BooksList from './components/BooksList';
-import './App.css'; // Import CSS file
+import './App.css'; 
 
 function App() {
   return (
